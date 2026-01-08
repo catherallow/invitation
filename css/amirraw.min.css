@@ -1,0 +1,11 @@
+@font-face {
+	font-family: "SMHeadersFont";
+	src: url(/fonts/mirra-regular-webfont.eot);
+	src: url(/fonts/mirra-regular-webfont.eot?#iefix) format("embedded-opentype"),
+		url(/fonts/mirra-regular-webfont.woff2) format("woff2"), url(/fonts/mirra-regular-webfont.woff) format("woff"),
+		url(/fonts/mirra-regular-webfont.ttf) format("truetype"),
+		url(/fonts/mirra-regular-webfont.svg#Mirra-Regular) format("svg");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
