@@ -484,7 +484,7 @@ a {
 }
 @media (max-width: 500px) {
 	.sm-main__img {
-		height: 780px;
+		height: 750px;
 	}
 	.sm-main {
 		min-height: initial;
@@ -521,7 +521,7 @@ a {
 		display: none;
 	}
 	.sm-main__content-titel {
-		margin-top: 460px;
+		margin-top: 230px;
 		text-align: center;
 		word-spacing: initial;
 	}
@@ -1974,7 +1974,7 @@ a {
 		letter-spacing: initial;
 	}
 	.sm-main__content {
-		min-height: 780px;
+		min-height: 750px;
 	}
 	.sm-cormorantRegular-70-40 {
 		color: var(--clr-text-2);
