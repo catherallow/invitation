@@ -483,7 +483,7 @@ a {
 }
 @media (max-width: 500px) {
 	.sm-main__img {
-		height: 780px;
+		height: 680px;
 	}
 	.sm-main {
 		min-height: initial;
