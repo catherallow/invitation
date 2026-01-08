@@ -26,7 +26,8 @@
 	</script>
     
   
-    <audio autoplay loop style="display: none;">
+
+    <audio loop style="display: none;">
   <source src="./music/main.mp3" type="audio/mpeg">
 </audio>
 </head>
@@ -810,6 +811,10 @@
 						$('.sm-opener').toggleClass('active', true)
 						$('.jsScroll__scrolled').removeClass('jsScroll__scrolled');
 
+							const maudio = $('audio')[0];
+                            maudio.volume = 0.3;
+                            maudio.play();
+                            
 						setTimeout(function () {
 							$('body').toggleClass('opener-active', false);
 							$('body').toggleClass('curtains', true);
@@ -827,10 +832,6 @@
 							}, 2000)
 
 
-							if ($('#audio').length > 0) {
-								startAudio();
-
-							}
 						}, 2000)
 						// Perform any action you want after unlocking
 					}
@@ -864,14 +865,7 @@
 	</div>
 	<div class="sm-curtains">
 
-	</div>
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  let audio = document.querySelector('audio');
-  
-  audio.volume = 0.3;
-}, false);
-</script>
+	</div> 
 	<script type="text/javascript" src="./js/js-scroll-animations.min.js"></script>
 </body>
 
