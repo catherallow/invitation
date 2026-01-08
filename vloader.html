@@ -27,11 +27,16 @@
 	</script>
     
   
+    <audio autoplay loop style="display: none;">
+  <source src="./music/main.mp3" type="audio/mpeg">
+</audio>
 </head>
 
 <body
 	class="sm-template50 sm-color4 sm-scroll_type-1 sm-scroll_speed-1 sm-project-387c1c0c3ac9904864309311a86933d6 sm-hfont-25 opener-active withlove"
 	data-project-id="16676">
+    
+
 	<link rel="stylesheet" href="./css/style(1).min.css">
 	<main>
 		<div class="sm-mob-btn sm-hidden_slow">
@@ -861,7 +866,13 @@
 	<div class="sm-curtains">
 
 	</div>
-
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  let audio = document.querySelector('audio');
+  
+  audio.volume = 0.3;
+}, false);
+</script>
 	<script type="text/javascript" src="./js/js-scroll-animations.min.js"></script>
 </body>
 
