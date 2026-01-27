@@ -1942,8 +1942,6 @@ a {
 .sm-main_save {
 	position: absolute;
 	top: 120px;
-	left: 50%;
-	transform: translateX(-50%);
 	text-transform: uppercase;
 	font-family: "SMTextsFont", sans-serif;
 	font-size: 32px;
@@ -1971,6 +1969,8 @@ a {
 		font-size: 16px;
 		top: 40px;
 		letter-spacing: initial;
+        left: 50%;
+        transform: translateX(-50%);
 	}
 	.sm-main__content {
 		min-height: 750px;
@@ -2146,6 +2146,12 @@ a {
 }
 .main_save {
 	color: var(--clr-text-1);
+}
+
+@media (min-width: 500px) {
+	.main_save {
+        color: var(--clr-text-4);
+	}
 }
 .sm-wishes__content .sm-cormorantRegular-70-30 {
 	color: var(--clr-text-3);
