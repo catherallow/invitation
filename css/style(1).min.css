@@ -1949,7 +1949,7 @@ a {
 	line-height: 62px;
 	text-align: center;
 	letter-spacing: 4px;
-	color: var(--clr-text-1);
+	color: var(--clr-text-4);
 }
 @media (max-width: 500px) {
 	.sm-moment .sm-line:first-child {
@@ -1972,7 +1972,7 @@ a {
 		letter-spacing: initial;
         left: 50%;
         transform: translateX(-50%);
-        color: var(--clr-text-4);
+        color: var(--clr-text-1);
 	}
 	.sm-main__content {
 		min-height: 750px;
