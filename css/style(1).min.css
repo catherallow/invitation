@@ -1949,6 +1949,7 @@ a {
 	line-height: 62px;
 	text-align: center;
 	letter-spacing: 4px;
+	color: var(--clr-text-1);
 }
 @media (max-width: 500px) {
 	.sm-moment .sm-line:first-child {
@@ -1971,6 +1972,7 @@ a {
 		letter-spacing: initial;
         left: 50%;
         transform: translateX(-50%);
+        color: var(--clr-text-4);
 	}
 	.sm-main__content {
 		min-height: 750px;
@@ -2143,15 +2145,6 @@ a {
 .sm-main__content-titel .sm-cormorantRegular-70-40,
 .sm-wishes__content .sm-manropeLight-20-18 {
 	color: var(--clr-text-4);
-}
-.main_save {
-	color: var(--clr-text-1);
-}
-
-@media (min-width: 500px) {
-	.main_save {
-        color: var(--clr-text-4);
-	}
 }
 .sm-wishes__content .sm-cormorantRegular-70-30 {
 	color: var(--clr-text-3);
