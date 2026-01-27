@@ -480,7 +480,6 @@ a {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	object-position: center 80%;
 }
 @media (max-width: 500px) {
 	.sm-main__img {
@@ -521,7 +520,6 @@ a {
 		display: none;
 	}
 	.sm-main__content-titel {
-		margin-top: 330px;
 		text-align: center;
 		word-spacing: initial;
 	}
@@ -2143,9 +2141,11 @@ a {
 .sm-main__content-titel .sm-cormorantRegular-100-30,
 .sm-main__content-titel .sm-cormorantRegular-100-50,
 .sm-main__content-titel .sm-cormorantRegular-70-40,
-.sm-main_save,
 .sm-wishes__content .sm-manropeLight-20-18 {
 	color: var(--clr-text-4);
+}
+.main_save {
+	color: var(--clr-text-1);
 }
 .sm-wishes__content .sm-cormorantRegular-70-30 {
 	color: var(--clr-text-3);
